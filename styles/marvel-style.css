@@ -1,0 +1,55 @@
+* {
+    font-family: 'Comic Neue', cursive;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: white;
+}
+
+.container h1.home-title {
+    font-family: 'Marvel', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: white;
+    background-color: #DC3545;
+}
+
+.container p.home-subtitle {
+    font-family: 'Marvel', sans-serif;
+    font-size: 1.5rem;
+}
+
+#characters-list .card.character-card img {
+    max-height: 225px;
+}
+
+.card.character-card:hover {
+    cursor: pointer;
+    background-color: #DC3545;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    #characters-list .card.character-card img {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    nav .collapse.navbar-collapse  {
+        text-align: center;
+    }
+}
